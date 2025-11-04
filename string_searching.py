@@ -1,6 +1,8 @@
 import settings, file_manager, re
 from util import clear
 
+
+# 트라이 노드임
 class TrieNode:
     def __init__(self):
         self.children = {}
